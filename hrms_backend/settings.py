@@ -144,6 +144,6 @@ REST_FRAMEWORK = {
 }
 
 # CORS: allow only intended frontend origins (set via env in production)
-CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', 'http://localhost:5173').split(',')
+CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', 'https://hrms-frontend-umber.vercel.app/').split(',')
 
 CORS_ALLOW_ALL_ORIGINS = True
